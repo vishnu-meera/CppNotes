@@ -1,0 +1,45 @@
+A pointer to derived class can be stored as a pointer to the base class.
+
+Liskov substitutability
+
+Virtual function ->derived class function
+Non virtual function ->base class fucntion
+
+Virtual table -->collection of memory, little bit cost of performance
+
+one virtual function means->u need virtual destructor
+
+Slicing.
+
+derived object copy into base object--> derived object loose varibles
+
+
+references are polymorphic in the same way as of pointers
+
+
+casting
+====================================================================
+
+(type)  -->type cast
+(static_cast)-->compile time and no run checks
+(dynamic_cast)-->run time checks, works only with virtual destructor, slower but safe
+(const_cast)-->not for a beginner
+
+reinterpret_cast-->bit twiddling
+
+=====================================================================
+
+
+collections
+------------------
+vector-->for primary use
+map-->for primary use
+linked list
+queue , dequeue,  priority_queue
+set --uninon  difference
+multimap
+linked list is fater while adding and slower when accessing comapre to vector
+================
+for_each
+for_each
+find_if
